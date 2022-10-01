@@ -11,7 +11,8 @@ function hashCode(str) {
 function getAddress(puzzle_target) {
     var puzzle_dict = {
         "puzzle1.html": "puzzle1.html",
-        "puzzle3.html": "number3.html"
+        "puzzle3.html": "number3.html",
+        "puzzle4.html": "quiz4.html"
     }
     return puzzle_dict[puzzle_target]
 }
