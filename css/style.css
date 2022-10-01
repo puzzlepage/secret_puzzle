@@ -92,7 +92,8 @@ STATIC LAYOUT CSS
     border-color: #51CBEE;
   }
 
-  .span {
+  span {
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;

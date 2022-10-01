@@ -1,12 +1,11 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="js/w3.js"></script>
+    <script src="js/pwd_handler.js"></script>
 </head> 
 <body>
-    <p> asdf</p>
-    <div w3-include-html="./includes/header.html"></div>
     <div class="wrapper">
         <h1>Intro</h1>
         <header>This is an introduction to a birthday puzzle pack.</header>
@@ -19,38 +18,12 @@
             </span>
         </section>
         <textbox>
-            <input type="text" class="line", placeholder="PASSWORD">
+            <input type="text" class="line", placeholder="PASSWORD", onkeyup="handlePwd(this, 63078537, 'puzzle1.html')">
         </textbox>
     </div>
 </body>
-<body class="w3-container">
-
-    <div class="w3-panel w3-green w3-large">
-      <p w3-include-html="test.html"></p>
-    </div> 
-    
-    <script>
-    w3.includeHTML();
-    </script>
-    
-</body>
-</html> -->
-
-
-<html>
-<title>W3.JS</title>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-<body>
-
-<h2>Testing W3.JS in HTML</h2>
-
-<p w3-include-html="test.html"></p> 
-
-<script>
-w3.includeHTML();
-</script>
-
-</body>
 </html>
+
+
 
 
