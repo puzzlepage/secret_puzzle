@@ -98,3 +98,19 @@ STATIC LAYOUT CSS
     vertical-align: middle;
     line-height: normal;
   }
+
+  .dot {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dotred {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(226, 11, 11);
+    border-radius: 50%;
+    display: inline-block;
+  }

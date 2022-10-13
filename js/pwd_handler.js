@@ -11,8 +11,10 @@ function hashCode(str) {
 function getAddress(puzzle_target) {
     var puzzle_dict = {
         "puzzle1.html": "puzzle1.html",
-        "puzzle3.html": "number3.html",
-        "puzzle4.html": "quiz4.html"
+        "puzzle3.html": "number3.html",     //EXCITE
+        "puzzle4.html": "quiz4.html",       //36071
+        "puzzle5.html": "thisis5.html",     //ANUBIS
+        "puzzle6.html": "now6.html"         //NONOGRAMQR
     }
     return puzzle_dict[puzzle_target]
 }
