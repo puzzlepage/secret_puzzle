@@ -14,7 +14,9 @@ function getAddress(puzzle_target) {
         "puzzle3.html": "number3.html",     //EXCITE
         "puzzle4.html": "quiz4.html",       //36071
         "puzzle5.html": "thisis5.html",     //ANUBIS
-        "puzzle6.html": "now6.html"         //NONOGRAMQR
+        "puzzle6.html": "now6.html",        //NONOGRAMQR
+        "puzzle7.html": "and7.html",        //DEADEND
+        "puzzle8.html": "puzzle3.html"
     }
     return puzzle_dict[puzzle_target]
 }
