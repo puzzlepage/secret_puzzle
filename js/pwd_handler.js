@@ -16,14 +16,15 @@ function getAddress(puzzle_target) {
         "puzzle5.html": "thisis5.html",     //ANUBIS
         "puzzle6.html": "now6.html",        //NONOGRAMQR
         "puzzle7.html": "and7.html",        //DEADEND
-        "puzzle8.html": "puzzle3.html"
+        "puzzle8.html": "its8.html",        //COOPSTROOPS
+        "puzzle9.html": "prize9.html",
     }
     return puzzle_dict[puzzle_target]
 }
 
 function handlePwd(user_pwd, true_hash, puzzle_target) {
     if(event.key === 'Enter') {
-        console.log(hashCode(user_pwd.value))
+        // console.log(hashCode(user_pwd.value))
         if (hashCode(user_pwd.value) == true_hash) {
             document.location.href=getAddress(puzzle_target);
         }
